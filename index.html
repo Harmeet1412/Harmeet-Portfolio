@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmeet Singh Saggu — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">HSS</div>
+  <ul class="nav-links">
+    <li><a onclick="showPage('home')"     id="nav-home"     class="active">Home</a></li>
+    <li><a onclick="showPage('about')"    id="nav-about">About</a></li>
+    <li><a onclick="showPage('projects')" id="nav-projects">Projects</a></li>
+    <li><a onclick="showPage('contact')"  id="nav-contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ════════════════════════
+     HOME
+════════════════════════ -->
+<section class="page active" id="home">
+
+  <div class="home-marquee-bar">
+    <div class="marquee-inner">
+      DEVELOPER &nbsp;·&nbsp; INNOVATOR &nbsp;·&nbsp; PROBLEM SOLVER &nbsp;·&nbsp;
+      WEB DEV &nbsp;·&nbsp; MACHINE LEARNING &nbsp;·&nbsp; COMPUTER VISION &nbsp;·&nbsp;
+      DEVELOPER &nbsp;·&nbsp; INNOVATOR &nbsp;·&nbsp; PROBLEM SOLVER &nbsp;·&nbsp;
+    </div>
+  </div>
+
+  <div class="home-hero">
+    <div class="hero-left">
+      <div>
+        <p class="hero-tag">// Portfolio — 2025</p>
+        <h1 class="hero-name">
+          HARMEET<br>
+          <span class="highlight">SINGH</span><br>
+          SAGGU
+        </h1>
+        <p class="hero-desc">
+          A passionate and dedicated individual with a strong interest in
+          technology, innovation, and problem-solving. I combine creativity
+          with technical expertise to deliver high-quality, user-friendly solutions.
+        </p>
+      </div>
+      <div class="hero-bottom">
+        <button class="btn-primary" onclick="showPage('projects')">View Projects →</button>
+        <button class="btn-ghost"   onclick="showPage('contact')">Contact Me</button>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-stat">
+        <div class="stat-num">03</div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+      <div class="hero-stat">
+        <div class="stat-num">ML</div>
+        <div class="stat-label">Machine Learning</div>
+      </div>
+      <div class="hero-stat">
+        <div class="stat-num">CV</div>
+        <div class="stat-label">Computer Vision</div>
+      </div>
+      <div class="hero-stat">
+        <div class="stat-num">IND</div>
+        <div class="stat-label">Based in India</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ════════════════════════
+     ABOUT
+════════════════════════ -->
+<section class="page" id="about">
+
+  <div class="about-top">
+    <div class="about-side">
+      <div>
+        <p class="about-side-label">// 02 — About</p>
+        <h2 class="about-side-title">WHO<br>I AM</h2>
+      </div>
+      <div class="about-side-num">02</div>
+    </div>
+    <div class="about-main">
+      <p>
+        I am Harmeet Singh Saggu, an enthusiastic learner and aspiring software
+        developer with a keen interest in modern technologies and application
+        development. I enjoy transforming ideas into real-world solutions through
+        coding and innovation.
+      </p>
+      <p>
+        I have built a strong foundation in programming, web development, and
+        problem-solving. My approach to learning is practical and hands-on,
+        allowing me to understand concepts deeply and apply them effectively in projects.
+      </p>
+      <p>
+        I believe in continuous improvement, adaptability, and staying updated
+        with the latest trends in technology. Always eager to explore new tools,
+        frameworks, and techniques that enhance my skills and broaden my knowledge.
+      </p>
+    </div>
+  </div>
+
+  <div class="about-skills">
+    <div class="skill-cell">
+      <div class="skill-icon">🌐</div>
+      <div class="skill-name">Web Dev</div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-icon">🤖</div>
+      <div class="skill-name">Machine Learning</div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-icon">👁️</div>
+      <div class="skill-name">Computer Vision</div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-icon">⚡</div>
+      <div class="skill-name">Problem Solving</div>
+    </div>
+    <div class="skill-cell">
+      <div class="skill-icon">💡</div>
+      <div class="skill-name">Innovation</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ════════════════════════
+     PROJECTS
+════════════════════════ -->
+<section class="page" id="projects">
+
+  <div class="projects-header">
+    <h2>PROJECTS</h2>
+    <span class="projects-count">03 Selected Works</span>
+  </div>
+
+  <div class="project-row">
+    <div class="proj-num">01</div>
+    <div class="proj-content">
+      <h3>Hospital Management System</h3>
+      <p>A web-based application to manage hospital operations — patient records,
+         appointments, and administrative tasks — improving workflow and reducing manual effort.</p>
+      <span class="proj-tag">Web App</span>
+    </div>
+    <div class="proj-arrow">→</div>
+  </div>
+
+  <div class="project-row">
+    <div class="proj-num">02</div>
+    <div class="proj-content">
+      <h3>Handwritten Digit Recognition</h3>
+      <p>A machine learning project that identifies handwritten digits using trained models,
+         involving data preprocessing, model training, and performance evaluation.</p>
+      <span class="proj-tag">Machine Learning</span>
+    </div>
+    <div class="proj-arrow">→</div>
+  </div>
+
+  <div class="project-row">
+    <div class="proj-num">03</div>
+    <div class="proj-content">
+      <h3>Gesture-Controlled Music System</h3>
+      <p>An innovative system that lets users control music using hand gestures via webcam,
+         combining computer vision and real-time interaction for a unique experience.</p>
+      <span class="proj-tag">Computer Vision</span>
+    </div>
+    <div class="proj-arrow">→</div>
+  </div>
+
+</section>
+
+<!-- ════════════════════════
+     CONTACT
+════════════════════════ -->
+<section class="page" id="contact">
+
+  <div class="contact-header">
+    <div class="contact-headline">
+      <h2>LET'S<br><span>WORK</span><br>TOGETHER</h2>
+      <p>Open to internships, job opportunities, freelance work, and collaborations.
+         I look forward to connecting with professionals and organisations.</p>
+    </div>
+    <div class="contact-details">
+      <div class="detail-row">
+        <span class="detail-key">Name</span>
+        <span class="detail-value">Harmeet Singh Saggu</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-key">Email</span>
+        <span class="detail-value">your.email@example.com</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-key">Phone</span>
+        <span class="detail-value">+91-XXXXXXXXXX</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-key">Location</span>
+        <span class="detail-value">India</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form-section">
+    <div class="form-col">
+      <label class="form-label" for="fname">Your Name</label>
+      <input type="text" id="fname" placeholder="John Doe">
+
+      <label class="form-label" for="femail">Email Address</label>
+      <input type="email" id="femail" placeholder="john@example.com">
+    </div>
+    <div class="form-col">
+      <label class="form-label" for="fmsg">Message</label>
+      <textarea id="fmsg" placeholder="Hi Harmeet, I'd love to collaborate..."></textarea>
+      <button class="btn-primary" onclick="submitForm()">Send Message →</button>
+      <p class="form-success" id="form-success">✓ Message received — I'll be in touch soon!</p>
+    </div>
+  </div>
+
+  <div class="footer-strip">
+    <span>© 2025 Harmeet Singh Saggu</span>
+    <span>Built with <span>♥</span> in India</span>
+  </div>
+
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
